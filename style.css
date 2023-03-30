@@ -4,6 +4,23 @@
   box-sizing: border-box;
   font-family: "Consolas", Courier, monospace;
 }
+header {
+  background-color: black;
+  padding: 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+p {
+  color: white;
+  max-width: 800px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
 #welcome-section {
   height: 100vh;
   display: flex;
