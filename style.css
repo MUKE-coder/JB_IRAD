@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Consolas", Courier, monospace;
+}
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  background: linear-gradient(45deg, darkred, rgba(0, 0, 139, 0.359)),
+    url("./christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+button {
+  padding: 1rem 3rem;
+  color: white;
+  background-color: black;
+  font-size: 22px;
+  cursor: pointer;
+  border: none;
+}
